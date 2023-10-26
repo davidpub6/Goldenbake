@@ -1,0 +1,39 @@
+#banner {
+    position: absolute;
+    width: 1440px;
+    height: 661px;
+
+    background-image: url(IMG/HomePageBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#TTBanner {
+    /*TikTok Logo*/
+
+    position: absolute;
+    left: 90.9%;
+    right: 7.43%;
+    top: 0.24%;
+    bottom: 99.1%;
+}
+
+#FBBanner {
+    /*Facebook Logo*/
+
+    position: absolute;
+    left: 93.75%;
+    right: 4.17%;
+    top: 0.24%;
+    bottom: 99.1%;
+}
+
+#IGBanner {
+    /*Instagram Logo*/
+
+    position: absolute;
+    left: 97.01%;
+    right: 1.04%;
+    top: 0.24%;
+    bottom: 99.1%;
+}
