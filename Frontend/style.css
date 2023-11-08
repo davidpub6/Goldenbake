@@ -1,7 +1,9 @@
 #banner {
     position: absolute;
-    width: 1440px;
-    height: 661px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
 
     background-image: url(IMG/HomePageBanner.png);
     background-repeat: no-repeat;
@@ -37,3 +39,114 @@
     top: 0.24%;
     bottom: 99.1%;
 }
+
+#Title {
+    /* GOLDENBAKE */
+
+    position: absolute;
+    width: 737px;
+    height: 10%;
+    left: 24.3%;
+    top: 34%;
+
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 91px;
+    text-align: center;
+
+    color: #BBA78A;
+}
+
+#Order {
+    /* Rectangle 7 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 14%;
+    height: 9%;
+    left: 33%;
+    top: 65%;
+
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 3px solid #BBA78A;
+    border-radius: 5px;
+
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #BBA78A;
+}
+
+#AboutUs {
+    /* Rectangle 6 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 14%;
+    height: 9%;
+    left: 53%;
+    top: 65%;
+
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 3px solid #BBA78A;
+    border-radius: 5px;
+
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #BBA78A;
+
+
+}
+
+#navigation {
+    /* navigation/menu */
+
+    position: absolute;
+    width: 100%;
+    height: 20.9%;
+    left: 0px;
+    top: 100%;
+
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#txtNav{
+    /* HOME */
+    float: left;
+    width: 81px;
+    height: 35px;
+    margin: 4% 7.5%;
+
+
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #6F6F6F;
+}
+
+#imgNav {
+    /* HOME */
+    float: left;
+    width: 120px;
+    height: 100px;
+    margin: 1% 5%;
+}
+
