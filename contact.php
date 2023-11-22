@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontakt - GoldenBake</title>
-    <link rel="Stylesheet" href="Style/style_contact.css">
+    <link rel="Stylesheet" href="style_contact.css">
     <link rel="icon" type="image/x-icon" href="IMG2/asd.ico">
     <style>
   @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
