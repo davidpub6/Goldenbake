@@ -22,7 +22,7 @@
                 <td class="hoverClass" onclick="Ext_Link('index.html')">HOME</td>
                 <td class="hoverClass" onclick="Ext_Link('Temp.html')">DELIVERY</td>
                 <td><img id="imgNav"src="IMG/Logo.png" alt="Logo" class="hoverClass" onclick="Ext_Link('index.html')"></td>
-                <td class="hoverClass" onclick="Ext_Link('Temp.html')">CONTACT</td>
+                <td class="hoverClass" onclick="Ext_Link('contact.php')">CONTACT</td>
                 <td class="hoverClass" onclick="Ext_Link('Temp.html')">CAKES</td>
             </tr>
         </table>
@@ -163,7 +163,6 @@
 const Ext_Link = (url) => {
     var anchor = document.createElement('a');
     anchor.href = url;
-    anchor.target = "_blank";
     anchor.click();
 }
 </script>
