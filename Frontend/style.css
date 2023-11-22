@@ -1,0 +1,331 @@
+body {
+    max-width: 1440px;
+    margin: auto;
+    background-color: white;
+}
+
+#banner {
+    position: absolute;
+    width: 1440px;
+    height: 661px;
+    margin-top: 0px;
+
+    background-image: url(IMG/HomePageBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    #TTBanner {
+        /*TikTok Logo*/
+
+        position: absolute;
+        left: 90.9%;
+        right: 7.43%;
+        top: 0.24%;
+        bottom: 99.1%;
+
+    }
+
+    #FBBanner {
+        /*Facebook Logo*/
+
+        position: absolute;
+        left: 93.75%;
+        right: 4.17%;
+        top: 0.24%;
+        bottom: 99.1%;
+    }
+
+    #IGBanner {
+        /*Instagram Logo*/
+
+        position: absolute;
+        left: 97.01%;
+        right: 1.04%;
+        top: 0.24%;
+        bottom: 99.1%;
+    }
+
+    #Title {
+        /* GOLDENBAKE */
+
+        position: absolute;
+        width: 737px;
+        height: 132px;
+        top: 205px;
+        left: 351px;
+        
+
+        font-family: 'Baskervville';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 5em;
+        
+        line-height: 91px;
+        text-align: center;
+
+        color: #BBA78A;
+    }
+
+    #Order {
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 208px;
+        height: 67px;
+        top: 419px;
+        left: 475px;
+
+
+        background-color: rgba(0, 0, 0, 0.25);
+        border: 3px solid #BBA78A;
+        border-radius: 5px;
+
+        font-family: 'Actor';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+
+        color: #BBA78A;
+    }
+
+    #AboutUs {
+        /* Rectangle 6 */
+
+        box-sizing: border-box;
+
+        position: absolute;
+        width: 208px;
+        height: 67px;
+        top: 419px;
+        left: 756px;
+
+
+        background-color: rgba(0, 0, 0, 0.25);
+        border: 3px solid #BBA78A;
+        border-radius: 5px;
+
+        font-family: 'Actor';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+
+        color: #BBA78A;
+
+
+    }
+}
+
+#navigation {
+    /* navigation/menu */
+
+    position: absolute;
+    width: 1440px;
+    height: 138px;
+    top: 661px;
+
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    #nav_table {
+        font-family: 'Actor';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #6F6F6F;
+
+        width: 60%;
+        margin: auto;
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    #imgNav {
+        width: 120px;
+        height: 100px;
+        margin: auto;
+    }
+}
+
+#content {
+    text-align: center;
+    position: absolute;
+    width: 1440px;
+    top: 805px;
+    background-color: white;
+
+    #content_table {
+        width: 80%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    #content_table td {
+        width: 50%;
+        text-align: center;
+    }
+
+    #content_table td img{
+        width: 90%;
+        text-align: center;
+    }
+
+    #content_table_title {
+        font-family: Actor;
+        font-size: 45px;
+        font-weight: 400;
+
+        color: #BBA78A;
+    }
+
+    #content_table_content {
+        font-family: Baskerville;
+        font-size: 25px;
+    }
+
+    #content_product_header {
+        font-family: Baskervville;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 65px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(187, 167, 138, 1);
+    }
+
+    #content_products {
+        text-align: center;
+
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F4EBDE 40.1%, #F4EBDE 67.19%, rgba(255, 255, 255, 0) 100%);
+
+    }
+    #content_products p {
+        font-family: Baskervville;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    #content_products_hr {
+        border: 1px solid rgba(187, 167, 138, 1);
+        height: 0px;
+        width: 30%;
+        overflow: visible;
+        text-align: center;
+    }
+
+    #content_products_hr:after {
+        content: '\00B7';
+        font-size: 800%;
+        position: relative;
+        top: -72px;
+        color: rgba(187, 167, 138, 1);
+    }
+
+    #example_products_table {
+        width: 80%;
+        margin: auto;
+    }
+
+    #example_products_table td {
+        font-family: Bellefair;
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-align: center;
+
+    }
+}
+
+#special_offer {
+    position: absolute;
+    width: 1440px;
+    height: 617px;
+    top: 2255px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    background-image: url(IMG/offer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    #offer_div {
+        width: 622px;
+        height: 100%;
+        margin-left: 5%;
+    }
+
+    #offer_h1 {
+        font-family: Buenard;
+        font-size: 6rem;
+        font-weight: 400;
+        line-height: 195px;
+        text-align: center;
+
+        margin-bottom: 0;
+
+        color: rgba(255, 151, 0, 1);
+    }
+
+    #offer_txt {
+        margin-top: 0;
+        font-family: Arvo;
+        font-size: 3rem;
+        font-weight: 400;
+        text-align: center;
+
+        color: white;
+    }
+
+    #offer_button {
+        margin-left: 35%;
+
+        width: 191px;
+        height: 52px;
+        border-radius: 10px;
+        border: none;
+
+        background: rgba(255, 151, 0, 1);
+
+        font-family: Abhaya Libre;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: center;
+
+    }
+}
+#footer {
+    position: absolute;
+    width: 1440px;
+    height: 146px;
+    top: 2872px;
+
+    background: #1D1D1D;
+
+    color: white;
+
+    #footer_table{
+        text-align: center;
+        margin: auto;
+        padding: 20px;
+        vertical-align: middle;
+    }
+
+    #footer_table td {
+        padding: 20px;
+        vertical-align: middle;
+        font-size: 1.5rem;
+    }
+}
+
+a:any-link {
+    color: rgba(156, 139, 115, 1);
+}
+.hoverClass:hover {
+    cursor: pointer;
+}
