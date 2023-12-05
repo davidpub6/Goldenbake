@@ -122,7 +122,7 @@ if($uwagib!=null){
 }
     </style>
     <link rel="Stylesheet" href="style_contact.css">
-    <link rel="icon" type="image/x-icon" href="asd.ico">
+    <link rel="icon" type="image/x-icon" href="IMG2/asd.ico">
     <style>
   @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 </style>
@@ -132,7 +132,7 @@ if($uwagib!=null){
         <ul class="menu">
             <li><a href="#">HOME</a></li>
             <li><a href="#">DELIVERY</a></li>
-<li><img src="asd.png" id="zdj1"></li>
+<li><img src="IMG2/asd.png" id="zdj1"></li>
             <li><a href="#">CONTACT</a></li>
             <li><a href="#">CAKES</a></li>
         </ul>
@@ -146,7 +146,7 @@ Use our contact form to report any problems with our website or your order - we 
 
 <div class="flex">
 <div class="lewo">
-<img src="mapa.png">
+<img src="IMG2/mapa.png">
 <p>
 <span style="color: #BBA78A; font-size: 40px;">Contanct Detail</span>
 <br>
@@ -159,10 +159,10 @@ Use our contact form to report any problems with our website or your order - we 
 <span>goldenbake.uk </span>
 <p></p>
 <ul class="icons">
-<li><a href="#"><img src="Vector-1.png"></a></li>
-<li><a href="#"><img src="Vector-2.png"></a></li>
-<li><a href="#"><img src="Vector-3.png"></a></li>
-<li><a href="#"><img src="Vector.png"></a></li>
+<li><a href="#"><img src="IMG2/Vector-1.png"></a></li>
+<li><a href="#"><img src="IMG2/Vector-2.png"></a></li>
+<li><a href="#"><img src="IMG2/Vector-3.png"></a></li>
+<li><a href="#"><img src="IMG2/Vector.png"></a></li>
 </ul>
 </div>
 
